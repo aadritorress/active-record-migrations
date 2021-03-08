@@ -249,7 +249,7 @@ going to see it in action!
 The simplest way is to run our migrations through a Rake task that we're given
 through the `activerecord` gem. How do we access these?
 
-Run `rake -T` to see the list of commands we have.
+Run `!! to see the list of commands we have.
 
 > **Note**: If you get an error when trying to run `rake` commands, you may have
 > a newer version of rake already installed compared to this lesson, causing a
@@ -310,7 +310,7 @@ To test our newly-created class out, let's use the rake task `rake console` (or
 ### Try Out The Following:
 
 Check that the class exists:
-
+Artist
 ```ruby
 Artist
 # => Artist (call 'Artist.connection' to establish a connection)
